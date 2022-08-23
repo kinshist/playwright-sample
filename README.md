@@ -51,6 +51,7 @@ Nuxt のデフォルト構成 + 以下
 
 1. h1タグのテキストが”h1ですよ”になっている
 2. h2タグのテキストが”h2ですよ”になっている
+3. リンククリックで「sample1」ページに遷移
 
 ### sample1ページ
 
@@ -70,8 +71,10 @@ Nuxt のデフォルト構成 + 以下
 以下のコードはローカル環境ですが、外部ページでも可能です。
 
 ```
-npx playwright codegen 192.168.1.4:3000/sample1
+npx playwright codegen localhost:3000/sample1/
 ```
 
 ## 参考
 https://github.com/matsuoshi/nuxt-jest-playwright
+
+https://www.cresco.co.jp/blog/entry/14335/
